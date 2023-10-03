@@ -1,0 +1,44 @@
+body {
+    background-color: #f4f4f4;
+    background-image: url('../images/images.jpg');
+    background-size: cover;  
+    background-position: center;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    width: 300px;
+}
+
+.card-header {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    border: none;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: #45a049;
+}
+
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 90%;
+    }
+}
