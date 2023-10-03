@@ -19,7 +19,6 @@ SETUP AND INSTALLATION
 1. **Clone the Repository**
     ```
     git clone <repository-url>
-    cd <repository-directory>
     ```
 
 2. **Setup Virtual Environment**
